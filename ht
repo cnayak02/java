@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:blue">
+
+<h2> What Can JavaScript Do?</h2>
+<p style="color:red;font-family:verdana">
+JavaScript can change HTML attribute values.</p>
+
+<p style="color:blue;font-family:verdana">In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='s3.gif'">doraemon walk backword</button>
+
+<img id="myImage" src="download.jpg" style="width:300px">
+
+<button onclick="document.getElementById('myImage').src='s1.gif'">doraaemon walk forword</button>
+
+</body>
+</html>
